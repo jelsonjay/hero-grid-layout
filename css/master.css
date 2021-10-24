@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 }
 :root {
-	--clr-bg: #000;
+	--clr-bg: hsl(240, 33%, 99%);
 }
 body {
-	background: none;
+	background: var(--clr-bg);
 }
 header .bg {
-	background-image: url('../images/coffee-11.jpg');
+	background-image: url('../images/coffee-1.jpg');
 }
 .hero {
 	display: grid;
