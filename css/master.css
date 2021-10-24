@@ -10,13 +10,13 @@ body {
 	background: none;
 }
 header .bg {
-	background-image: url('../images/bg.jpeg');
+	background-image: url('../images/coffee-11.jpg');
 }
 .hero {
 	display: grid;
 	max-width: 100%;
 	margin: auto;
-	grid-gap: 15px;
+	grid-gap: 20px;
 	grid-template-columns: repeat(auto-fill, minmax(3, 1fr));
 }
 .hero > div:nth-child(1) {
